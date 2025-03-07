@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: r-wasm/setup-r@v2
-      - uses: r-wasm/build-package@v2
-      - uses: r-wasm/upload-wasm@v2
+      - uses: r-wasm/setup-r@v3
+      - uses: r-wasm/build-package@v3
+      - uses: r-wasm/upload-wasm@v3
