@@ -1,0 +1,16 @@
+# This is a basic workflow that is manually triggered
+
+name: Build Wasm
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build-wasm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: r-wasm/setup-r@v3
+      - uses: r-wasm/build-package@v3
+      - uses: r-wasm/upload-wasm@v3
