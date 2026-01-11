@@ -1278,8 +1278,8 @@
       }
     },
     "Rsamtools": {
-      "Source": "bioc_xgit",
-      "Repository": null,
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.21/bioc",
       "description": {
         "Package": "Rsamtools",
         "Type": "Package",
@@ -1300,12 +1300,6 @@
         "LazyLoad": "yes",
         "SystemRequirements": "GNU make",
         "VignetteBuilder": "knitr",
-        "RemoteType": "bioc_xgit",
-        "RemoteMirror": "https://git.bioconductor.org/packages",
-        "RemoteRepo": "Rsamtools",
-        "RemoteRelease": "release",
-        "RemoteSha": "5fa43af28dd6ae25fbabd23e2e7329003ba53e30",
-        "RemoteBranch": "RELEASE_3_21",
         "NeedsCompilation": "yes",
         "Packaged": "2025-10-21 20:11:26 UTC; aherranssanderco",
         "Author": "Martin Morgan [aut],\n  Hervé Pagès [aut],\n  Valerie Obenchain [aut],\n  Nathaniel Hayden [aut],\n  Busayo Samuel [ctb] (Converted Rsamtools vignette from Sweave to\n    RMarkdown / HTML.),\n  Bioconductor Package Maintainer [cre]",
